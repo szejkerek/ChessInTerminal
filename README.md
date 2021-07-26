@@ -1,1 +1,1 @@
-# Chess---console-game
+# Chess-console-game
