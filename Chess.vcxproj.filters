@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów\GameManager">
+      <UniqueIdentifier>{69ec0844-5192-4354-bfbb-28a8e6433f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\BoardElements">
+      <UniqueIdentifier>{2222aa5c-9daa-4b3b-96ad-e9e134af859d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\BoardElements\Board">
+      <UniqueIdentifier>{9ddcb312-f40f-41bd-852e-af063f93d5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\BoardElements\Square">
+      <UniqueIdentifier>{75cb8459-7f0a-4e55-9c23-c85d13c7f4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements">
+      <UniqueIdentifier>{571e85d7-168f-4634-94c9-9881becef7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\AbstractPiece">
+      <UniqueIdentifier>{cf5c9cc0-4d9d-470b-8574-4c819459fe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\Pawn">
+      <UniqueIdentifier>{2b74f8c4-2387-46a1-b83f-530b495e7785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\Knight">
+      <UniqueIdentifier>{05cf5c3e-a39b-45b6-8b8b-9258524dcb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\Bishop">
+      <UniqueIdentifier>{53ca75a8-1c4d-4eb6-8308-276a475576f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\Rook">
+      <UniqueIdentifier>{c8ca6333-b0ec-4c5d-8aa4-f1df5cc9c8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\Queen">
+      <UniqueIdentifier>{5e7c18fe-1eb2-44d0-b15d-8092f9546565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\PieceElements\King">
+      <UniqueIdentifier>{863d5df4-8c19-46c3-b69e-f255eb594ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\GameManager\Move">
+      <UniqueIdentifier>{51481a4b-a5cd-4395-b620-ab48400947ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Pliki zasobów\BoardElements\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Pliki zasobów\PieceElements\AbstractPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Pliki zasobów\BoardElements\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Pliki zasobów\PieceElements\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Pliki zasobów\PieceElements\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Pliki zasobów\PieceElements\Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Pliki zasobów\PieceElements\Rook</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Pliki zasobów\PieceElements\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Pliki zasobów\PieceElements\King</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Pliki zasobów\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Pliki zasobów\GameManager\Move</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Pliki zasobów\BoardElements\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Pliki zasobów\PieceElements\AbstractPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Pliki zasobów\BoardElements\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Pliki zasobów\PieceElements\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Pliki zasobów\PieceElements\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Pliki zasobów\PieceElements\Bishop</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Pliki zasobów\PieceElements\Rook</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Pliki zasobów\PieceElements\Queen</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Pliki zasobów\PieceElements\King</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Pliki zasobów\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Pliki zasobów\GameManager\Move</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

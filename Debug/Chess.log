@@ -1,0 +1,10 @@
+﻿  Board.cpp
+D:\OneDrive - Politechnika Śląska\STUDIA\SEM2\PPK\LABY\Projekt\Chess\Board.cpp(144,25): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  GameManager.cpp
+D:\OneDrive - Politechnika Śląska\STUDIA\SEM2\PPK\LABY\Projekt\Chess\GameManager.cpp(37,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Move.cpp
+  Square.cpp
+  main.cpp
+  Generowanie kodu...
+D:\OneDrive - Politechnika Śląska\STUDIA\SEM2\PPK\LABY\Projekt\Chess\Board.cpp(121): warning C4715: "Board::ValidMoves”: niewszystkie ścieżki kodu zwracają wartość
+  Chess.vcxproj -> D:\OneDrive - Politechnika Śląska\STUDIA\SEM2\PPK\LABY\Projekt\Chess\Debug\Chess.exe
