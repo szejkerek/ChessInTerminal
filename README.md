@@ -5,4 +5,5 @@ Program lets you play a local game of Chess. It has features such as loading gam
 
 Example of the user interface:
 
-![Screenshot_270](https://user-images.githubusercontent.com/69083596/218280649-3521b521-7d81-4c60-9916-311cb8abaa0c.png)
+![x](https://user-images.githubusercontent.com/69083596/218280705-6060cfc2-75c2-4fdc-b99a-7ae9e5914ba3.png)
+
