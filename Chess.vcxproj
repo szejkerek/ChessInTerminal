@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -139,33 +139,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bishop.cpp" />
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="functions.cpp" />
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="King.cpp" />
-    <ClCompile Include="Knight.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Move.cpp" />
-    <ClCompile Include="Pawn.cpp" />
-    <ClCompile Include="Piece.cpp" />
-    <ClCompile Include="Queen.cpp" />
-    <ClCompile Include="Rook.cpp" />
-    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="src\Figures\Bishop.cpp" />
+    <ClCompile Include="src\Board.cpp" />
+    <ClCompile Include="src\functions.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\Figures\King.cpp" />
+    <ClCompile Include="src\Figures\Knight.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Move.cpp" />
+    <ClCompile Include="src\Figures\Pawn.cpp" />
+    <ClCompile Include="src\Figures\Piece.cpp" />
+    <ClCompile Include="src\Figures\Queen.cpp" />
+    <ClCompile Include="src\Figures\Rook.cpp" />
+    <ClCompile Include="src\Figures\Square.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bishop.h" />
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="functions.h" />
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="King.h" />
-    <ClInclude Include="Knight.h" />
-    <ClInclude Include="Move.h" />
-    <ClInclude Include="Pawn.h" />
-    <ClInclude Include="Piece.h" />
-    <ClInclude Include="Queen.h" />
-    <ClInclude Include="Rook.h" />
-    <ClInclude Include="Square.h" />
+    <ClInclude Include="src\Figures\Bishop.h" />
+    <ClInclude Include="src\Board.h" />
+    <ClInclude Include="src\functions.h" />
+    <ClInclude Include="src\GameManager.h" />
+    <ClInclude Include="src\Figures\King.h" />
+    <ClInclude Include="src\Figures\Knight.h" />
+    <ClInclude Include="src\Move.h" />
+    <ClInclude Include="src\Figures\Pawn.h" />
+    <ClInclude Include="src\Figures\Piece.h" />
+    <ClInclude Include="src\Figures\Queen.h" />
+    <ClInclude Include="src\Figures\Rook.h" />
+    <ClInclude Include="src\Figures\Square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

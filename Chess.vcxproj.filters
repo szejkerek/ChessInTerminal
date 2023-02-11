@@ -54,81 +54,81 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Square.cpp">
+    <ClCompile Include="src\Figures\Square.cpp">
       <Filter>Pliki zasobów\BoardElements\Square</Filter>
     </ClCompile>
-    <ClCompile Include="Piece.cpp">
+    <ClCompile Include="src\Figures\Piece.cpp">
       <Filter>Pliki zasobów\PieceElements\AbstractPiece</Filter>
     </ClCompile>
-    <ClCompile Include="functions.cpp">
+    <ClCompile Include="src\functions.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Board.cpp">
+    <ClCompile Include="src\Board.cpp">
       <Filter>Pliki zasobów\BoardElements\Board</Filter>
     </ClCompile>
-    <ClCompile Include="Pawn.cpp">
+    <ClCompile Include="src\Figures\Pawn.cpp">
       <Filter>Pliki zasobów\PieceElements\Pawn</Filter>
     </ClCompile>
-    <ClCompile Include="Knight.cpp">
+    <ClCompile Include="src\Figures\Knight.cpp">
       <Filter>Pliki zasobów\PieceElements\Knight</Filter>
     </ClCompile>
-    <ClCompile Include="Bishop.cpp">
+    <ClCompile Include="src\Figures\Bishop.cpp">
       <Filter>Pliki zasobów\PieceElements\Bishop</Filter>
     </ClCompile>
-    <ClCompile Include="Rook.cpp">
+    <ClCompile Include="src\Figures\Rook.cpp">
       <Filter>Pliki zasobów\PieceElements\Rook</Filter>
     </ClCompile>
-    <ClCompile Include="Queen.cpp">
+    <ClCompile Include="src\Figures\Queen.cpp">
       <Filter>Pliki zasobów\PieceElements\Queen</Filter>
     </ClCompile>
-    <ClCompile Include="King.cpp">
+    <ClCompile Include="src\Figures\King.cpp">
       <Filter>Pliki zasobów\PieceElements\King</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.cpp">
+    <ClCompile Include="src\GameManager.cpp">
       <Filter>Pliki zasobów\GameManager</Filter>
     </ClCompile>
-    <ClCompile Include="Move.cpp">
+    <ClCompile Include="src\Move.cpp">
       <Filter>Pliki zasobów\GameManager\Move</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="functions.h">
+    <ClInclude Include="src\functions.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Square.h">
+    <ClInclude Include="src\Figures\Square.h">
       <Filter>Pliki zasobów\BoardElements\Square</Filter>
     </ClInclude>
-    <ClInclude Include="Piece.h">
+    <ClInclude Include="src\Figures\Piece.h">
       <Filter>Pliki zasobów\PieceElements\AbstractPiece</Filter>
     </ClInclude>
-    <ClInclude Include="Board.h">
+    <ClInclude Include="src\Board.h">
       <Filter>Pliki zasobów\BoardElements\Board</Filter>
     </ClInclude>
-    <ClInclude Include="Pawn.h">
+    <ClInclude Include="src\Figures\Pawn.h">
       <Filter>Pliki zasobów\PieceElements\Pawn</Filter>
     </ClInclude>
-    <ClInclude Include="Knight.h">
+    <ClInclude Include="src\Figures\Knight.h">
       <Filter>Pliki zasobów\PieceElements\Knight</Filter>
     </ClInclude>
-    <ClInclude Include="Bishop.h">
+    <ClInclude Include="src\Figures\Bishop.h">
       <Filter>Pliki zasobów\PieceElements\Bishop</Filter>
     </ClInclude>
-    <ClInclude Include="Rook.h">
+    <ClInclude Include="src\Figures\Rook.h">
       <Filter>Pliki zasobów\PieceElements\Rook</Filter>
     </ClInclude>
-    <ClInclude Include="Queen.h">
+    <ClInclude Include="src\Figures\Queen.h">
       <Filter>Pliki zasobów\PieceElements\Queen</Filter>
     </ClInclude>
-    <ClInclude Include="King.h">
+    <ClInclude Include="src\Figures\King.h">
       <Filter>Pliki zasobów\PieceElements\King</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
+    <ClInclude Include="src\GameManager.h">
       <Filter>Pliki zasobów\GameManager</Filter>
     </ClInclude>
-    <ClInclude Include="Move.h">
+    <ClInclude Include="src\Move.h">
       <Filter>Pliki zasobów\GameManager\Move</Filter>
     </ClInclude>
   </ItemGroup>
