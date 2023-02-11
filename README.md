@@ -1,4 +1,5 @@
 ### Chess-console-game
+⭐ Do not forget to give a star on GitHub!
 ## Bartłomiej Gordon INF sem 5
 
 Program lets you play a local game of Chess. It has features such as loading game in FEN notation and saving your game in PGN notation. It lets you replay your games on sites like Chess.com
